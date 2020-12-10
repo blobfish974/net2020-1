@@ -15,7 +15,7 @@ Diego pilutti, Yasmine Elkhaloufi, Andrea Nicolai, Natascia Caria, Lynda Wainain
 - removing punctuations  (to be fixed - we still have some "l'")
 - tokenization --> list of words 
 - stop words removal
-- lemmizzation (we have done stemming, but we prefer lemming)
+- lemmizzation (we have done stemming, but we prefer lemming) 
 Done with 
 
 :smile: marge into master! :smile:
@@ -23,8 +23,10 @@ Done with
 Open challenge:
 - how to transofrm emoji into text to not lose informations -- or cleaning emoji
 - be sure to keep the hastags as hashtags
-- removing the mispelling words (filter all the words with a dictionary to find out the incorect words)
-- 
+- manual cleaning of text
+  1) removing the mispelling words (filter all the words with a dictionary to find out the incorect words)
+  2) with some informations are lost "sinistra" will be "sinistro" and this could be a problem with sentiment
+
 
 ### Week 1 (7-13 dic)
 
@@ -36,20 +38,23 @@ Network creation: "create the matrix"
 Using ```networkX``` create links between words and plot some initial graphs.
 
 Open challenge:
-- copy some script form the [last year project](https://github.com/SalvatoreRomano1/HateSpeech_NetworkAnalysisProject) to create node and links DB to be able to open the graph on Gephi
+- create node and links DB to be able to open the graph on Gephi --> copy some script form the [last year project](https://github.com/SalvatoreRomano1/HateSpeech_NetworkAnalysisProject) 
 - try to create a visualization directly on python with networkX
+- chose witch ```countVectorize``` or ```AdjencyMatrix``` to use 
+
+---> create a defitive files with pickle fuction <----
 
 ### Week 2 (14-20 dic)
 
-Semantic analysis of the words
-
+- Sentiment analysis of the words
+  1) we still need the final list of words to be analyzed (the list of 47K unique words) 
+- add new nodes' features (like )
 
 ### Week 3 (21-3 jan)
 <<Holydays!>>
 
 ### Week 4 (4-10 jan)
 create the gephi graphs
-
 
 ### Week 5 (11-17 jan)
 Perform network analysis
