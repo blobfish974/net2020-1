@@ -11,18 +11,19 @@ Diego pilutti, Yasmine Elkhaloufi, Andrea Nicolai, Natascia Caria, Lynda Wainain
 ```Common_start``` folder: find instructions about how to "play with data" in the README.md
 
 1) Text cleaning (post and comments):
-- format the charachters
-- removing punctuations
-- tokenization --> list of words
+- format the charachters  (FR kayborrd)
+- removing punctuations  (to be fixed - we still have some "l'")
+- tokenization --> list of words 
 - stop words removal
-- lemmizzation and stemming --> taking --> take
-Challege: we need to use NLTK with **italian dictionary**
+- lemmizzation (we have done stemming, but we prefer lemming)
+Done with 
 
-marge into master! :joy:
+:smile: marge into master! :smile:
 
 Open challenge:
-- how to transofrm emoji into text to not lose informations
-- lemmization
+- how to transofrm emoji into text to not lose informations -- or cleaning emoji
+- be sure to keep the hastags as hashtags
+- removing the mispelling words (filter all the words with a dictionary to find out the incorect words)
 - 
 
 ### Week 1 (7-13 dic)
@@ -40,7 +41,8 @@ Open challenge:
 
 ### Week 2 (14-20 dic)
 
-Semantic analysis and final DB construction.
+Semantic analysis of the words
+
 
 ### Week 3 (21-3 jan)
 <<Holydays!>>
