@@ -1,4 +1,4 @@
-# The semantic network project
+# The semantic network project 
 
 This group is focused on the semantic and sentiment anlysis of the text corpus.
 
