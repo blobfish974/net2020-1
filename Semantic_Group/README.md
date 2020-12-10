@@ -18,6 +18,12 @@ Diego pilutti, Yasmine Elkhaloufi, Andrea Nicolai, Natascia Caria, Lynda Wainain
 - lemmizzation and stemming --> taking --> take
 Challege: we need to use NLTK with **italian dictionary**
 
+marge into master! :joy:
+
+Open challenge:
+- how to transofrm emoji into text to not lose informations
+- lemmization
+- 
 
 ### Week 1 (7-13 dic)
 
@@ -27,6 +33,10 @@ Network creation: "create the matrix"
 </p>
 
 Using ```networkX``` create links between words and plot some initial graphs.
+
+Open challenge:
+- copy some script form the [last year project](https://github.com/SalvatoreRomano1/HateSpeech_NetworkAnalysisProject) to create node and links DB to be able to open the graph on Gephi
+- try to create a visualization directly on python with networkX
 
 ### Week 2 (14-20 dic)
 
